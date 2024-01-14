@@ -38,7 +38,7 @@ const Left = styled.div`
 	gap: 20px;
 
 	@media only screen and (max-width: 768px) {
-		flex:1;
+		flex: 1;
 		align-items: center;
 	}
 `;
@@ -95,7 +95,7 @@ const Right = styled.div`
 	}
 `;
 const Img = styled.img`
-	width: 250px;
+	width: 500px;
 	height: 500px;
 	object-fit: contain;
 	position: absolute;
@@ -116,7 +116,7 @@ const Img = styled.img`
 		width: 300px;
 		height: 300px;
 		position: absolute;
-		right:300px;
+		right: 300px;
 	}
 `;
 
@@ -137,9 +137,9 @@ const Hero = () => {
 				<Right>
 					<Canvas
 						style={{
-							width: "250px",
+							width: "500px",
 							position: "absolute",
-							right: "1200",
+							right: "700",
 							top: "0",
 							bottom: "0",
 							left: "0",

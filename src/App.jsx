@@ -12,7 +12,7 @@ const Container = styled.div`
 	scrollbar-width: none;
 	color: white;
 	background: url("./img/bground.jpg");
-	background-size: 900px;
+	background-size: 1800px;
 
 	&::-webkit-scrollbar {
 		display: none;
